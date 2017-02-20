@@ -32,7 +32,6 @@ var AccessorySchema = new Schema({
         processor: String,
         vendor: String,
         store_num: String
-
     }
 });
 
@@ -41,37 +40,34 @@ var AccessorySchema = new Schema({
 mongoose.model('Accessory', AccessorySchema);
 
 var Accessory = mongoose.model('Accessory');
-
+var Accessory = mongoose.model('Accessory');
 var e = new Accessory();
-
-
-    e.name='Accessory 1';
-    e.description='SAMSUNG High Quality HeadPhone';
-    e.retail_price= 599.99;
-    e.sale_price= 549.99;
-    e.promotion= true;
-    e.size= 'L';
-    e.configuration= '16GB';
-    e.color= 'Silver';
-    e.skuid = '45-001';
-    e.active= true;
-    e.picture = 'https://rukminim1.flixcart.com/image/832/832/mobile/v/z/x/samsung-galaxy-on-nxt-sm-g610fzdgins-original-imaenkzvmnyf7sby.jpeg?q=7';
-
-    e.contract= '2/2 Year contract';
-    e.store='T-MOBILE';
-    e.details.more_description='Accessory 1 details';
-    e.details.warranty= '1 year';
-    e.details.processor= 'Exynos 7870 Octa Core 1.6 GHz';
-    e.details.vendor= 'Apple';
-    e.details.store_num= 'USA-001';
-/*
+e.name='iPhone 6s Leather Case'; // #2 "name"
+e.description='iPhone 6s  - suggested Accessories - iPhone 6s Leather Case'; // #3 "ACCESSORIESTYPE"+"name"
+e.retail_price= 45.00 // #4
+e.sale_price= 45.00;
+e.promotion= true;
+e.size= '';
+e.configuration= '';
+e.color= 'Saddle Brown'; // #5
+e.skuid = '45-001';
+e.active= true;
+e.picture = 'MKXT2_AV1_ROSEGLD.png'; // #1 "Image"
+e.contract= '2/2 Year contract';
+e.store='T-MOBILE';
+e.details.more_description='Quality you can trust, from a company that cares. High quality synthetic leather we use, ' +
+    'soft and durable. Vintage look distressed leather with rub pattern design, ' +
+    'protects your iPhone 6s / iPhone 6 against accidental moisture, collision, scratch'; // #6
+e.details.warranty= '1 year';
+e.details.processor= '';
+e.details.vendor= 'Apple';
+e.details.store_num= 'USA-001';
 e.save(function(err,accessory) {
-    console.log(accessory.id);
-});*/
-var sku='45';
+    console.log("Inserted Accessory ID :::: " +accessory.id);
+});
+var sku='45-001';
 Accessory.find({'skuid': {'$regex': sku} }, function (err, items) {
     if (err) throw err;
     // object of all the users
-    console.log(items);
+    console.log("ITEMS :::: " +items);
 });
-
