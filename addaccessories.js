@@ -40,27 +40,24 @@ var AccessorySchema = new Schema({
 mongoose.model('Accessory', AccessorySchema);
 
 var Accessory = mongoose.model('Accessory');
-var Accessory = mongoose.model('Accessory');
 var e = new Accessory();
-e.name='iPhone 6s Leather Case'; // #2 "name"
-e.description='iPhone 6s  - suggested Accessories - iPhone 6s Leather Case'; // #3 "ACCESSORIESTYPE"+"name"
-e.retail_price= 45.00 // #4
-e.sale_price= 45.00;
+e.name='For Samsung Galaxy S7 edge  - suggested Accessories'; // #2 "name"
+e.description='For Samsung Galaxy S7 edge  - suggested Accessories - SamsungGalaxy_Case.jpg'; // #3 "ACCESSORIESTYPE"+"name"
+e.retail_price= 29.99 // #4
+e.sale_price= 29.99;
 e.promotion= true;
 e.size= '';
 e.configuration= '';
-e.color= 'Saddle Brown'; // #5
-e.skuid = '45-001';
+e.color= 'Grey, White, Red, Black'; // #5
+e.skuid = '49-003'; // #6 AUTO INCREMENT BY 1
 e.active= true;
-e.picture = 'MKXT2_AV1_ROSEGLD.png'; // #1 "Image"
+e.picture = 'http://ec2-35-164-110-172.us-west-2.compute.amazonaws.com/ez2transfer-clientapp/assets/img/SamsungGalaxy_Case.jpg'; // #1 "Image"
 e.contract= '2/2 Year contract';
 e.store='T-MOBILE';
-e.details.more_description='Quality you can trust, from a company that cares. High quality synthetic leather we use, ' +
-    'soft and durable. Vintage look distressed leather with rub pattern design, ' +
-    'protects your iPhone 6s / iPhone 6 against accidental moisture, collision, scratch'; // #6
+e.details.more_description='Classic Design: With its tailored fit and high-end look & feel, the Envoy shifts seamlessly from the workplace to a night out'; // #6
 e.details.warranty= '1 year';
 e.details.processor= '';
-e.details.vendor= 'Apple';
+e.details.vendor= 'SAMSUNG';
 e.details.store_num= 'USA-001';
 e.save(function(err,accessory) {
     console.log("Inserted Accessory ID :::: " +accessory.id);
