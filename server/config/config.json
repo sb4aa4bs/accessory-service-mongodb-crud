@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "ep",
+    "password": "ep",
+    "database": "commercedb",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "",
+    "database": "tvh",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "root",
+    "database": "tvh",
+    "host": "localhost",
+    "dialect": "mysql"
+  }
+}
