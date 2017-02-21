@@ -1,0 +1,361 @@
+-----------
+RECORD #1
+-----------
+var e = new Accessory();
+e.name='iPhone 6s Leather Case'; // #2 "name"
+e.description='iPhone 6s  - suggested Accessories - iPhone 6s Leather Case'; // #3 "ACCESSORIESTYPE"+"name"
+e.retail_price= 45.00 // #4
+e.sale_price= 45.00;
+e.promotion= true;
+e.size= '';
+e.configuration= '';
+e.color= 'Saddle Brown'; // #5
+e.skuid = '45-001';
+e.active= true;
+e.picture = 'http://ec2-35-164-110-172.us-west-2.compute.amazonaws.com/ez2transfer-clientapp/assets/img/MKXT2_AV1_ROSEGLD.png'; // #1 "Image"
+e.contract= '2/2 Year contract';
+e.store='T-MOBILE';
+e.details.more_description='Quality you can trust, from a company that cares. High quality synthetic leather we use, ' +
+    'soft and durable. Vintage look distressed leather with rub pattern design, ' +
+    'protects your iPhone 6s / iPhone 6 against accidental moisture, collision, scratch'; // #6
+e.details.warranty= '1 year';
+e.details.processor= '';
+e.details.vendor= 'Apple';
+e.details.store_num= 'USA-001';
+e.save
+
+-----------
+RECORD #2
+-----------
+var e = new Accessory();
+e.name='Beats Solo3 Wireless Headphones'; // #2 "name"
+e.description='For iPhone 6s  - suggested Accessories - Beats Solo3 Wireless Headphones'; // #3 "ACCESSORIESTYPE"+"name"
+e.retail_price= 299.95 // #4
+e.sale_price= 299.95;
+e.promotion= true;
+e.size= '';
+e.configuration= '';
+e.color= 'Gloss Black, Silver, Gold, Rose Gold, Gloss White'; // #5
+e.skuid = '45-002';
+e.active= true;
+e.picture = 'http://ec2-35-164-110-172.us-west-2.compute.amazonaws.com/ez2transfer-clientapp/assets/img/beats-solo3-201609_ROSEGLD.png'; // #1 "Image"
+e.contract= '2/2 Year contract';
+e.store='T-MOBILE';
+e.details.more_description='Connect via Class 1 Bluetooth with your device for wireless listening. Up to 40 hours of battery life for multi-day use. Adjustable fit with comfort-cushioned ear cups made for everyday use. Take calls, control your music and activate Siri with the multifunction on-ear controls'; // #6
+e.details.warranty= '1 year';
+e.details.processor= '';
+e.details.vendor= 'Beats';
+e.details.store_num= 'USA-001';
+e.save
+
+-----------
+RECORD #3
+-----------
+var e = new Accessory();
+e.name='Lightning to USB Cable (2 m)'; // #2 "name"
+e.description='For iPhone 6s  - suggested Accessories - Lightning to USB Cable (2 m)'; // #3 "ACCESSORIESTYPE"+"name"
+e.retail_price= 29.00 // #4
+e.sale_price= 29.00;
+e.promotion= true;
+e.size= '3 Feet';
+e.configuration= '';
+e.color= 'Black, White'; // #5
+e.skuid = '45-003';
+e.active= true;
+e.picture = 'http://ec2-35-164-110-172.us-west-2.compute.amazonaws.com/ez2transfer-clientapp/assets/img/lightning-usb-201609.png'; // #1 "Image"
+e.contract= '2/2 Year contract';
+e.store='T-MOBILE';
+e.details.more_description='One of the longest Tangle Free Rugged Lightning Cable @ 6.4 feet / 2 meter. Charges the iPhone, iPod, iPad with lightning connector through your Computer or USB connector. 100% Compatibility'; // #6
+e.details.warranty= '1 year';
+e.details.processor= '';
+e.details.vendor= 'Apple';
+e.details.store_num= 'USA-001';
+e.save(
+
+-----------
+RECORD #4
+-----------
+var e = new Accessory();
+e.name='iPhone 7 Smart Battery Case'; // #2 "name"
+e.description='For iPhone 7  - suggested Accessories - iPhone 7 Smart Battery Case'; // #3 "ACCESSORIESTYPE"+"name"
+e.retail_price= 99.00 // #4
+e.sale_price= 99.00;
+e.promotion= true;
+e.size= '';
+e.configuration= '';
+e.color= 'White, Black or Red'; // #5
+e.skuid = '46-001';
+e.active= true;
+e.picture = 'http://ec2-35-164-110-172.us-west-2.compute.amazonaws.com/ez2transfer-clientapp/assets/img/MN012_AV1_JET_BLACK_Smart_Battery_Case.png'; // #1 "Image"
+e.contract= '2/2 Year contract';
+e.store='T-MOBILE';
+e.details.more_description='iPhone 7 Smart Battery Case gives you increased talk time, up to 26 hours, more Internet use, up to 22 hours on LTE, and more video playback, up to 24 hours. A single Lightning cable allows you to charge your iPhone 7 and the Smart Battery Case at the same time'; // #6
+e.details.warranty= '1 year';
+e.details.processor= '';
+e.details.vendor= 'Apple';
+e.details.store_num= 'USA-001';
+e.save
+
+-----------
+RECORD #5
+-----------
+var e = new Accessory();
+e.name='iPhone Lightning Dock'; // #2 "name"
+e.description='For iPhone 7  - suggested Accessories - iPhone Lightning Dock'; // #3 "ACCESSORIESTYPE"+"name"
+e.retail_price= 49.00 // #4
+e.sale_price= 49.00;
+e.promotion= true;
+e.size= '';
+e.configuration= '';
+e.color= 'Black'; // #5
+e.skuid = '46-002'; // #6 AUTO INCREMENT BY 1
+e.active= true;
+e.picture = 'http://ec2-35-164-110-172.us-west-2.compute.amazonaws.com/ez2transfer-clientapp/assets/img/iphone-lightning-dock-201609_JET_BLACK.png'; // #1 "Image"
+e.contract= '2/2 Year contract';
+e.store='T-MOBILE';
+e.details.more_description='Perfect for a desk or countertop, this Apple iPhone Lightning Dock sits upright as it syncs or charges'; // #6
+e.details.warranty= '1 year';
+e.details.processor= '';
+e.details.vendor= 'Apple';
+e.details.store_num= 'USA-001';
+e.save
+
+-----------
+RECORD #6
+-----------
+var e = new Accessory();
+e.name='Belkin Lightning Audio + Charge Rockstar'; // #2 "name"
+e.description='For iPhone 7  - suggested Accessories - Belkin Lightning Audio + Charge Rockstar'; // #3 "ACCESSORIESTYPE"+"name"
+e.retail_price= 39.95 // #4
+e.sale_price= 39.95;
+e.promotion= true;
+e.size= '';
+e.configuration= '';
+e.color= 'White'; // #5
+e.skuid = '46-003'; // #6 AUTO INCREMENT BY 1
+e.active= true;
+e.picture = 'http://ec2-35-164-110-172.us-west-2.compute.amazonaws.com/ez2transfer-clientapp/assets/img/HKKP2_Belkin.png'; // #1 "Image"
+e.contract= '2/2 Year contract';
+e.store='T-MOBILE';
+e.details.more_description='Made for iPhone 7, iPhone 7 Plus and any Lightning device that runs iOS 10 or later. The RockStar delivers power in to your iPhone/iPad, and Audio out. It only supports Lightning Audio. It does not support audio split, dual charge, data sync, or any other Lightning adapter other than Apple’s Lighting to 3.5mm Adapter'; // #6
+e.details.warranty= '1 year';
+e.details.processor= '';
+e.details.vendor= 'Belkin';
+e.details.store_num= 'USA-001';
+e.save
+
+-----------
+RECORD #7
+-----------
+var e = new Accessory();
+e.name='iPhone SE Leather Case'; // #2 "name"
+e.description='For iPhone SE  - suggested Accessories - iPhone SE Leather Case'; // #3 "ACCESSORIESTYPE"+"name"
+e.retail_price= 39.00 // #4
+e.sale_price= 39.00;
+e.promotion= true;
+e.size= '';
+e.configuration= '';
+e.color= 'Grey'; // #5
+e.skuid = '47-001'; // #6 AUTO INCREMENT BY 1
+e.active= true;
+e.picture = 'http://ec2-35-164-110-172.us-west-2.compute.amazonaws.com/ez2transfer-clientapp/assets/img/IPhoneSE_Leather_Case_SPACE_GRAY.png'; // #1 "Image"
+e.contract= '2/2 Year contract';
+e.store='T-MOBILE';
+e.details.more_description='Created from specially tanned, dye-infused leather, this slim Apple-designed case protects your iPhone without adding bulk.One-piece case consists of PU leather and flexible TPU, both materials synthesis; Premium leather on the back and TPU inside Ergonomically designed offer a good grip and comfort with its leather outside finish and arc bumper design; Enlarged ports with raised edges and side buttons are easy to feel and press'; // #6
+e.details.warranty= '1 year';
+e.details.processor= '';
+e.details.vendor= 'Apple';
+e.details.store_num= 'USA-001';
+e.save
+
+-----------
+RECORD #8
+-----------
+var e = new Accessory();
+e.name='Belkin Valet Charge Dock for Apple Watch + iPhone'; // #2 "name"
+e.description='For iPhone SE  - suggested Accessories - Belkin Valet Charge Dock for Apple Watch + iPhone'; // #3 "ACCESSORIESTYPE"+"name"
+e.retail_price= 129.95 // #4
+e.sale_price= 129.95;
+e.promotion= true;
+e.size= '';
+e.configuration= '';
+e.color= 'Grey, White, Red, Black'; // #5
+e.skuid = '47-002'; // #6 AUTO INCREMENT BY 1
+e.active= true;
+e.picture = 'http://ec2-35-164-110-172.us-west-2.compute.amazonaws.com/ez2transfer-clientapp/assets/img/Belkin_Valet_Charge_Dock.png'; // #1 "Image"
+e.contract= '2/2 Year contract';
+e.store='T-MOBILE';
+e.details.more_description='Compatible with Apple Watch Series 2 and Series 1, iPhone 7 / 7 Plus, iPhone 6 / 6s, iPhone 6 Plus / 6s Plus, iPhone 5 / 5s / 5c and iPhone SE. Includes a built-in magnetic charging module for apple watch and a built-in lightning connector for iPhone'; // #6
+e.details.warranty= '1 year';
+e.details.processor= '';
+e.details.vendor= 'Belkin';
+e.details.store_num= 'USA-001';
+e.save
+
+-----------
+RECORD #9
+-----------
+var e = new Accessory();
+e.name='Belkin Lightning Audio + Charge Rockstar'; // #2 "name"
+e.description='For iPhone SE  - suggested Accessories - Belkin Lightning Audio + Charge Rockstar'; // #3 "ACCESSORIESTYPE"+"name"
+e.retail_price= 24.95 // #4
+e.sale_price= 24.95;
+e.promotion= true;
+e.size= '';
+e.configuration= '';
+e.color= 'Grey, White, Red, Black'; // #5
+e.skuid = '47-003'; // #6 AUTO INCREMENT BY 1
+e.active= true;
+e.picture = 'http://ec2-35-164-110-172.us-west-2.compute.amazonaws.com/ez2transfer-clientapp/assets/img/Belkin_Lightning_USB_Cable.png'; // #1 "Image"
+e.contract= '2/2 Year contract';
+e.store='T-MOBILE';
+e.details.more_description='Ultra compact with reversible lightning connector. Plugs into any USB 2.0 port to charge'; // #6
+e.details.warranty= '1 year';
+e.details.processor= '';
+e.details.vendor= 'Belkin';
+e.details.store_num= 'USA-001';
+e.save
+
+-----------
+RECORD #10
+-----------
+var e = new Accessory();
+e.name='LG Stylo 2 Plus Case'; // #2 "name"
+e.description='LG Stylo™ 2 PLUS  -  suggested Accessories - LG Stylo 2 Plus Case'; // #3 "ACCESSORIESTYPE"+"name"
+e.retail_price= 8.99 // #4
+e.sale_price= 8.99;
+e.promotion= true;
+e.size= '';
+e.configuration= '';
+e.color= 'Grey, White, Red, Black'; // #5
+e.skuid = '48-001'; // #6 AUTO INCREMENT BY 1
+e.active= true;
+e.picture = 'http://ec2-35-164-110-172.us-west-2.compute.amazonaws.com/ez2transfer-clientapp/assets/img/81QWQMMCwGL._SL1500_LGStylo2PlusCase.jpg'; // #1 "Image"
+e.contract= '2/2 Year contract';
+e.store='T-MOBILE';
+e.details.more_description='Two layered Hybrid Hard Cover Case, with a shock absorbing soft silicone layer, enforced with a tough polycarbonate shell, designed for the LG Stylo 2 Plus. Polycarbonate casing offers optimal protection with a sleek, smooth finish that is satisfying to the touch, and the soft silicone underneath effectively encloses your device smoothly'; // #6
+e.details.warranty= '1 year';
+e.details.processor= '';
+e.details.vendor= 'LG';
+e.details.store_num= 'USA-001';
+e.save
+
+-----------
+RECORD #11
+-----------
+var e = new Accessory();
+e.name='LG Stylo 2 Plus Screen Protector'; // #2 "name"
+e.description='LG Stylo™ 2 PLUS  -  suggested Accessories - LG Stylo 2 Plus Screen Protector'; // #3 "ACCESSORIESTYPE"+"name"
+e.retail_price= 7.99 // #4
+e.sale_price= 7.99;
+e.promotion= true;
+e.size= '';
+e.configuration= '';
+e.color= 'Grey, White, Red, Black'; // #5
+e.skuid = '48-002'; // #6 AUTO INCREMENT BY 1
+e.active= true;
+e.picture = 'http://ec2-35-164-110-172.us-west-2.compute.amazonaws.com/ez2transfer-clientapp/assets/img/61ZdmNVHUnL._SL1090_LGStylo2PlusScreen Protector.jpg'; // #1 "Image"
+e.contract= '2/2 Year contract';
+e.store='T-MOBILE';
+e.details.more_description='SUPER TOUGHNESS - Made from the Highest Quality Tempered-Glass with 100% Bubble-Free Adhesives for easy installation, 9H Super Tough protects From scratches to high impact drops. SUPREME CLARITY - 99.99% HD Clarity and Maintains the Original Touch Experience'; // #6
+e.details.warranty= '1 year';
+e.details.processor= '';
+e.details.vendor= 'LG';
+e.details.store_num= 'USA-001';
+e.save
+
+-----------
+RECORD #12
+-----------
+var e = new Accessory();
+e.name='LG Stylo 2 Armband'; // #2 "name"
+e.description='LG Stylo™ 2 PLUS  -  suggested Accessories - LG Stylo 2 Armband'; // #3 "ACCESSORIESTYPE"+"name"
+e.retail_price= 8.95 // #4
+e.sale_price= 8.95;
+e.promotion= true;
+e.size= '';
+e.configuration= '';
+e.color= 'Grey, White, Red, Black'; // #5
+e.skuid = '48-003'; // #6 AUTO INCREMENT BY 1
+e.active= true;
+e.picture = 'http://ec2-35-164-110-172.us-west-2.compute.amazonaws.com/ez2transfer-clientapp/assets/img/71jM1hX7gzL._SL1500_LGStyleo2Plus_ArmBand.jpg'; // #1 "Image"
+e.contract= '2/2 Year contract';
+e.store='T-MOBILE';
+e.details.more_description='Premium quality armband for LG Stylo 2, LG Stylus 2, LG Stylus 2 Plus which you wont have any falling apart issue. Adjustable strap fastens the phone onto your arm safely. Touchable screen makes it easy to operate your phone through armband'; // #6
+e.details.warranty= '1 year';
+e.details.processor= '';
+e.details.vendor= 'LG';
+e.details.store_num= 'USA-001';
+e.save
+
+-----------
+RECORD #13
+-----------
+var e = new Accessory();
+e.name='For Samsung Galaxy S7 edge  - suggested Accessories'; // #2 "name"
+e.description='For Samsung Galaxy S7 edge  - suggested Accessories - Samsung SM-R323NBKAXAR Gear Virtual Reality'; // #3 "ACCESSORIESTYPE"+"name"
+e.retail_price= 44.00 // #4
+e.sale_price= 44.00;
+e.promotion= true;
+e.size= '';
+e.configuration= '';
+e.color= 'Grey, White, Red, Black'; // #5
+e.skuid = '49-001'; // #6 AUTO INCREMENT BY 1
+e.active= true;
+e.picture = 'http://ec2-35-164-110-172.us-west-2.compute.amazonaws.com/ez2transfer-clientapp/assets/img/71to6yXg0PL._SL1500_SamsungGalaxy_VR.jpeg'; // #1 "Image"
+e.contract= '2/2 Year contract';
+e.store='T-MOBILE';
+e.details.more_description='Turn your compatible Samsung Galaxy smartphone into a completely portable and wireless virtual reality machine, with Accelerometer, Gyrometer, Proximity (Mount/Unmount Detection)'; // #6
+e.details.warranty= '1 year';
+e.details.processor= '';
+e.details.vendor= 'SAMSUNG';
+e.details.store_num= 'USA-001';
+e.save
+
+-----------
+RECORD #14
+-----------
+var e = new Accessory();
+e.name='For Samsung Galaxy S7 edge  - suggested Accessories'; // #2 "name"
+e.description='For Samsung Galaxy S7 edge  - suggested Accessories - DanForce Ultra Slim Qi Wireless Charger'; // #3 "ACCESSORIESTYPE"+"name"
+e.retail_price= 16.49 // #4
+e.sale_price= 16.49;
+e.promotion= true;
+e.size= '';
+e.configuration= '';
+e.color= 'Grey, White, Red, Black'; // #5
+e.skuid = '49-002'; // #6 AUTO INCREMENT BY 1
+e.active= true;
+e.picture = 'http://ec2-35-164-110-172.us-west-2.compute.amazonaws.com/ez2transfer-clientapp/assets/img/DanForce_Qi_Wireless_Charger.jpg'; // #1 "Image"
+e.contract= '2/2 Year contract';
+e.store='T-MOBILE';
+e.details.more_description='Charging : Just lay down your Qi-enabled device onto the charging pad, then the pad will charge your phone wirelessly. Safety Guarantees : Over-voltage, under-voltage, short-circuit protection to ensure safety for your cell phone. Blue breathing light indicates that your phone is in charging'; // #6
+e.details.warranty= '1 year';
+e.details.processor= '';
+e.details.vendor= 'SAMSUNG';
+e.details.store_num= 'USA-001';
+e.save
+
+-----------
+RECORD #15
+-----------
+var e = new Accessory();
+e.name='For Samsung Galaxy S7 edge  - suggested Accessories'; // #2 "name"
+e.description='For Samsung Galaxy S7 edge  - suggested Accessories - SamsungGalaxy_Case.jpg'; // #3 "ACCESSORIESTYPE"+"name"
+e.retail_price= 29.99 // #4
+e.sale_price= 29.99;
+e.promotion= true;
+e.size= '';
+e.configuration= '';
+e.color= 'Grey, White, Red, Black'; // #5
+e.skuid = '49-003'; // #6 AUTO INCREMENT BY 1
+e.active= true;
+e.picture = 'http://ec2-35-164-110-172.us-west-2.compute.amazonaws.com/ez2transfer-clientapp/assets/img/SamsungGalaxy_Case.jpg'; // #1 "Image"
+e.contract= '2/2 Year contract';
+e.store='T-MOBILE';
+e.details.more_description='Classic Design: With its tailored fit and high-end look & feel, the Envoy shifts seamlessly from the workplace to a night out'; // #6
+e.details.warranty= '1 year';
+e.details.processor= '';
+e.details.vendor= 'SAMSUNG';
+e.details.store_num= 'USA-001';
+e.save
